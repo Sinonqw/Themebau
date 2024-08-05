@@ -35,13 +35,13 @@ const headerHTML = `
     </ul>
     <ul class="header__socials">
         <li class="header__socials-item">
-            <a class="header__socials-link" href="#"><img src="/images/header/facebook.svg" alt=""></a>
+            <a class="header__socials-link" href="#"><img src="images/header/facebook.svg" alt=""></a>
         </li>
         <li class="header__socials-item">
-            <a class="header__socials-link" href="#"><img src="/images/header/twitter.svg" alt=""></a>
+            <a class="header__socials-link" href="#"><img src="images/header/twitter.svg" alt=""></a>
         </li>
         <li class="header__socials-item">
-            <a class="header__socials-link" href="#"><img src="/images/header/instagram.svg" alt=""></a>
+            <a class="header__socials-link" href="#"><img src="images/header/instagram.svg" alt=""></a>
         </li>
     </ul>
 </div>
