@@ -8,9 +8,9 @@ const headerHTML = `
         <div class="header__logo">
             <a href="#">Themebau.</a>
         </div>
-        <li class="header__nav-item active"><a class="header__nav-link" href="index.html">home</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href"portfolio.html">projects</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="contacts.html">contact</a></li>
+        <li class="header__nav-item active"><a class="header__nav-link" href="/pages/index.html">home</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href"/pages/portfolio.html">projects</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="/pages/contacts.html">contact</a></li>
     </ul>
     <ul class="header__mobile-socials">
         <li class="header__socials-item">
@@ -29,9 +29,9 @@ const headerHTML = `
         <a href="#">Themebau.</a>
     </div>
     <ul class="header__nav">
-        <li class="header__nav-item active"><a class="header__nav-link" href="index.html">home</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="portfolio.html">projects</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="contacts.html">contact</a></li>
+        <li class="header__nav-item active"><a class="header__nav-link" href="/pages/index.html">home</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="/pages/portfolio.html">projects</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="/pages/contacts.html">contact</a></li>
     </ul>
     <ul class="header__socials">
         <li class="header__socials-item">
