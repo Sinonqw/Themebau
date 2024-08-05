@@ -113,6 +113,9 @@
 .service__list-item:hover .service-item-content{
   transform: translateY(-40px);
 }
+.service__list-item:hover .service-read-more {
+  opacity: 1;
+}
 .service__list-item:hover .service-item-title{
   margin-bottom: 28px;
 }
@@ -124,7 +127,7 @@
   transition: .35s ease-in-out;
 }
 .service-read-more {
-  display: flex;
+  opacity: 0;
   align-items: center;
   gap: 17px;
   transition: .35s;
