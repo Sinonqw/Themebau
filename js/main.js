@@ -1,8 +1,3 @@
-// import { initializeBurgerMenu } from './mobile-menu';
-
-document.addEventListener('DOMContentLoaded', function () {
-	initializeBurgerMenu()
-})
 
 const sliderLine = document.querySelector('.slider-line')
 const nextBtn = document.querySelector('.slide__btn-next')
