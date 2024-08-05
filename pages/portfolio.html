@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/portfolio.min.css">
+  <title>Simple Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container" id="menu">
+    <script src="/js/menu.js"></script>
+    <script src="/js/mobile-menu.js"></script>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__heading">
+            <h2 class="about__title title">An award-winning
+digital studio  <span>✌️</span></h2>
+          </div>
+          <a href="contacts.html" class="about__btn btn">let’s work <span class="round"></span></a>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+  <div class="container">
+    <div class="projects__inner">
+      <ul class="filter__btn-box">
+        <li class="filter__btn active" data-set="all">all projects</li>
+        <li class="filter__btn" data-set="branding">branding</li>
+        <li class="filter__btn" data-set="design">design</li>
+        <li class="filter__btn" data-set="photography">photography</li>
+        <li class="filter__btn" data-set="marketing">marketing</li>
+      </ul>
+      <div class="projects__list">
+        <li class="projects__item" data-target="design">
+          <img src="/images/projects/image1.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="photography">
+          <img src="/images/projects/image2.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="marketing">
+          <img src="/images/projects/image3.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="photography">
+          <img src="/images/projects/image4.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="branding">
+          <img src="/images/projects/image5.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="marketing">
+          <img src="/images/projects/image6.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="design">
+          <img src="/images/projects/image7.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="branding">
+          <img src="/images/projects/image8.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+        <li class="projects__item" data-target="marketing">
+          <img src="/images/projects/image9.jpg" alt="">
+          <a href="" class="projects__link"></a>
+        </li>
+      </div>
+      <a href="col.html" class="projects__more">more</a>
+    </div>
+  </div>
+</section>
+
+
+    <section class="lets-work">
+      <div class="container">
+        <div class="lets-work__inner">
+          <div class="lets-work__heading">
+            <h2 class="lets-work__title title">Do you have a project?<br>
+  Send us a message and let's connect  <span>👋</span></h2>
+          </div>
+          <a href="contacts.html" class="lets-work__btn btn">let’s work <span class="round"></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('/footer.html')
+        .then(response => response.text())
+        .then(data => {
+          document.querySelector('body').insertAdjacentHTML('beforeend', data);
+        });
+    });
+  </script>
+  <script type="module" src="/js/portfolio.js"></script>
+</body>
+</html>

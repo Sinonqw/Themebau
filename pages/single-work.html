@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/single-work.min.css">
+  <title>Single work</title>
+</head>
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <div class="container" id="menu">
+    </div>
+  </header>
+  <main>
+    <section class="main">
+      <div class="container">
+        <div class="main__inner">
+          <ul class="main__images">
+            <li class="main__img">
+              <img src="/images/single-work/1.jpg" alt="">
+            </li>
+            <li class="main__img">
+              <img src="/images/single-work/2.jpg" alt="">
+            </li>
+            <li class="main__img">
+              <img src="/images/single-work/3.jpg" alt="">
+            </li>
+          </ul>
+          <div class="about-work">
+            <div class="about__title">
+              Video Tutorial
+            </div>
+            <div class="about__desc">
+              Over 10 years of combined experience, 
+  and know a thing or two about designing 
+  websites and mobile apps.
+          </div>
+          <div class="about__info">
+            <div class="about__info-item">
+              <span>Date:</span> June 10, 2020
+            </div>
+            <div class="about__info-item">
+              <span>Client:</span> Brian Newton
+            </div>
+            <div class="about__info-item">
+              <span>Category:</span> Branding
+            </div>
+            <div class="about__info-item">
+              <span>Share:</span> 
+              <img src="/images/single-post/fb.svg" alt=""> 
+              <img src="/images/single-post/twitter.svg" alt="">
+              <img src="/images/single-post/Vector.svg" alt="">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nav">
+      <div class="container">
+        <div class="nav_inner">
+          <div class="arrow-left arrow">
+            <img src="/images/single-work/arrow-left.svg" alt="">
+            <span>prev project</span>
+          </div>
+          <div class="all">all</div>
+          <div class="arrow-right arrow">
+            <span>next project</span>
+            <img src="/images/single-work/arrow-right.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      fetch('/footer-v2.html')
+        .then(response => response.text())
+        .then(data => {
+          document.querySelector('main').insertAdjacentHTML('afterend', data);
+        });
+    });
+  </script>
+  <script src="/js/nav-menu.js"></script>
+</body>
+</html>
