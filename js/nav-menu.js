@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	fetch('/header-v2.html')
+	fetch('header-v2.html')
 		.then(response => response.text())
 		.then(data => {
 			document.getElementById('menu').insertAdjacentHTML('afterbegin', data)
