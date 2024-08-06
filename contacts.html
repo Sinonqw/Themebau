@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/contacts.min.css">
+  <link rel="stylesheet" href="css/contacts.min.css">
   <title>Contacts</title>
 </head>
 <body>
@@ -71,13 +71,13 @@ get in touch  <span>👋</span>
   </main>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      fetch('/footer-v2.html')
+      fetch('footer-v2.html')
         .then(response => response.text())
         .then(data => {
           document.querySelector('main').insertAdjacentHTML('afterend', data);
         });
     });
   </script>
-  <script src="/js/nav-menu.js"></script>
+  <script src="js/nav-menu.js"></script>
 </body>
 </html>
